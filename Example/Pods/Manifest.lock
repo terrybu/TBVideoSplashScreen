@@ -1,0 +1,14 @@
+PODS:
+  - TBVideoSplashScreen (0.1.0)
+
+DEPENDENCIES:
+  - TBVideoSplashScreen (from `../`)
+
+EXTERNAL SOURCES:
+  TBVideoSplashScreen:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TBVideoSplashScreen: 5b92e55aaa77d6b5eac79858f84f47da1c2a2116
+
+COCOAPODS: 0.37.2

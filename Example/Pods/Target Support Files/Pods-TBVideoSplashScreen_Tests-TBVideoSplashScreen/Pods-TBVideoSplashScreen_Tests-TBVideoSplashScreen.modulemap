@@ -1,0 +1,6 @@
+framework module TBVideoSplashScreen {
+  umbrella header "Pods-TBVideoSplashScreen_Tests-TBVideoSplashScreen-umbrella.h"
+
+  export *
+  module * { export * }
+}

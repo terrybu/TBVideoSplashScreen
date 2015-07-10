@@ -10,18 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "TBVideoSplashScreen"
   s.version          = "0.1.0"
-  s.summary          = "A short description of TBVideoSplashScreen."
+  s.summary          = "TBVideoSplashScreen allows you to create a splash screen using a video file"
   s.description      = <<-DESC
-                       An optional longer description of TBVideoSplashScreen
+                       Tired of using static images as the launch screen? Many prefer an animated splash screen but GIF files are quite a pain. Make a cool animation, export it out to video, use this library to show it and then let your app start normally at video finish.
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TBVideoSplashScreen"
+  s.homepage         = "https://github.com/terrybu/TBVideoSplashScreen"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Terry Bu" => "burea1124@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TBVideoSplashScreen.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/terrybu/TBVideoSplashScreen.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
