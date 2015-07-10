@@ -25,10 +25,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     @objc
     func moviePlayBackDidFinish() {
+        //any custom logic for callback goes here
         let vc: UIViewController =  UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("ViewController") as! UIViewController
         let navCtrl = UINavigationController(rootViewController: vc)
         window?.rootViewController! = navCtrl
-        
         NSNotificationCenter.defaultCenter().removeObserver(self)
     }
     
