@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'TBVideoSplashScreen_Example', :exclusive => true do
+  pod "TBVideoSplashScreen", :path => "../"
+end
+
+target 'TBVideoSplashScreen_Tests', :exclusive => true do
+  pod "TBVideoSplashScreen", :path => "../"
+
+  
+end
