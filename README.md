@@ -1,5 +1,7 @@
 # TBVideoSplashScreen
 
+This library is for any iOS Developer who wants to display a video as the splash screen instead of a boring static launch image. 
+
 In your AppDelegate.swift, go to didFinishLaunchingWithOptions
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
