@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TBVideoSplashScreen"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "TBVideoSplashScreen allows you to create a splash screen using a video file"
   s.description      = <<-DESC
                        Tired of using static images as the launch screen? Many prefer an animated splash screen but GIF files are quite a pain. Make a cool animation, export it out to video, use this library to show it and then let your app start normally at video finish.
