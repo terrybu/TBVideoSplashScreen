@@ -18,7 +18,7 @@ The launch image you pass to makeAndPlayVideoSplashScreen is there for the best 
         return true
     }
 
-Make sure you implement @objc moviePlayBackDidFinish() as callback method in the same file. This is the method that gets fired automatically upon video playback completion. 
+Make sure you implement @objc moviePlayBackDidFinish() as callback method in the same file. This is the method that gets fired automatically upon video playback completion.
 
     @objc
     func moviePlayBackDidFinish() {
@@ -31,7 +31,7 @@ Make sure you implement @objc moviePlayBackDidFinish() as callback method in the
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
