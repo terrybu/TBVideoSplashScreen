@@ -15,12 +15,10 @@
 		3DEAD3FA6CA2E7C392B5FE9D /* Pods-TBVideoSplashScreen_Example-TBVideoSplashScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 971FFBF96608457B04264DBC /* Pods-TBVideoSplashScreen_Example-TBVideoSplashScreen-dummy.m */; };
 		3F3C362ADD78238D81F6270E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13221809F1568FE65900D791 /* Foundation.framework */; };
 		408B883A9B8E6FE6BCC6105F /* Pods-TBVideoSplashScreen_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EB411FFCE63761078A0C5F /* Pods-TBVideoSplashScreen_Example-dummy.m */; };
-		6DD7AC8C8BA6D866E63EEB60 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E1B9CE3F363BF27372E6D /* ReplaceMe.swift */; };
 		7506573AC371FBD5C50DAB08 /* TBVideoSplashScreen.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA9A39EE1522AB7C7423644A /* TBVideoSplashScreen.bundle */; };
 		7B6A9D33E40D4757CB650C22 /* Pods-TBVideoSplashScreen_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5EBF567E14304D1EF164D3 /* Pods-TBVideoSplashScreen_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8693189DA51D18BFE2C6728B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13221809F1568FE65900D791 /* Foundation.framework */; };
 		97372D9A693CF0C0BF2CFFB7 /* Pods-TBVideoSplashScreen_Tests-TBVideoSplashScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1867048CBA9D80C8CCA65C1 /* Pods-TBVideoSplashScreen_Tests-TBVideoSplashScreen-dummy.m */; };
-		ABEB71FAB5557A8230647C1E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E1B9CE3F363BF27372E6D /* ReplaceMe.swift */; };
 		B6D681446C1F97B07DA8FDFF /* Pods-TBVideoSplashScreen_Example-TBVideoSplashScreen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C762691D9677F554B95E9D /* Pods-TBVideoSplashScreen_Example-TBVideoSplashScreen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9D5197B4B7CC87D7CDD29EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13221809F1568FE65900D791 /* Foundation.framework */; };
 		E312394B6FFB08B814F1E846 /* TBVideoSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D07B25DE775A8212D9F63 /* TBVideoSplashScreen.swift */; };
@@ -73,7 +71,6 @@
 		4E8698C7AAD982E5AC167A3D /* Pods-TBVideoSplashScreen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBVideoSplashScreen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F13AB649FB7980797A041B5 /* Pods-TBVideoSplashScreen_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBVideoSplashScreen_Tests-resources.sh"; sourceTree = "<group>"; };
 		5ADA61224F361CDE0CEB533C /* TBVideoSplashScreen.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBVideoSplashScreen.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F9E1B9CE3F363BF27372E6D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		61484C0E31C155685602925B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6241D0C0FD9BBCBAB5E9282A /* Pods-TBVideoSplashScreen_Tests-TBVideoSplashScreen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TBVideoSplashScreen_Tests-TBVideoSplashScreen-umbrella.h"; path = "../Pods-TBVideoSplashScreen_Tests-TBVideoSplashScreen/Pods-TBVideoSplashScreen_Tests-TBVideoSplashScreen-umbrella.h"; sourceTree = "<group>"; };
 		62C507788F6066EBF8785F83 /* Pods-TBVideoSplashScreen_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBVideoSplashScreen_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -169,7 +166,6 @@
 		05B9906642AC75F4711123EC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5F9E1B9CE3F363BF27372E6D /* ReplaceMe.swift */,
 				8A1D07B25DE775A8212D9F63 /* TBVideoSplashScreen.swift */,
 			);
 			path = Classes;
@@ -538,7 +534,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				97372D9A693CF0C0BF2CFFB7 /* Pods-TBVideoSplashScreen_Tests-TBVideoSplashScreen-dummy.m in Sources */,
-				6DD7AC8C8BA6D866E63EEB60 /* ReplaceMe.swift in Sources */,
 				E312394B6FFB08B814F1E846 /* TBVideoSplashScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,7 +543,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DEAD3FA6CA2E7C392B5FE9D /* Pods-TBVideoSplashScreen_Example-TBVideoSplashScreen-dummy.m in Sources */,
-				ABEB71FAB5557A8230647C1E /* ReplaceMe.swift in Sources */,
 				192D3EE055635F151BAB5FE2 /* TBVideoSplashScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
