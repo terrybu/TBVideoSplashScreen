@@ -18,7 +18,7 @@ The launch image you pass to makeAndPlayVideoSplashScreen is there for the best 
         return true
     }
 
-Make sure you implement @objc moviePlayBackDidFinish() as callback method in the same file. This is the method that gets fired automatically upon video playback completion.
+Make sure you implement @objc moviePlayBackDidFinish() as callback method in the same file. This is the method that gets fired automatically upon video playback completion. Removing observer is just for safety
 
     @objc
     func moviePlayBackDidFinish() {
