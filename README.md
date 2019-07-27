@@ -46,7 +46,7 @@ pod "TBVideoSplashScreen"
 
 ## Author
 
-Terry Bu, burea1124@gmail.com
+Terry Bu
 
 ## License
 
